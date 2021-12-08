@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+.lista_itens {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card_item {
+  border: 0.5px solid rgba(41, 41, 41, 0.329);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card_item:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+img {
+  border-radius: 10px;
+}
+
+#ImagensIniciais:hover {
+  width: 400px;
+}
+
+#Titulo {
+  color: rgb(170, 127, 9);
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(92, 91, 91, 0.219);
+  text-align: center;
+}
+
+#SubTitulo {
+  color: rgb(238, 174, 0);
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+#Descricao {
+  text-align: justify;
+}
+
+#botaoVoltar {
+  color: white;
+  background-color: rgb(238, 174, 0);
+  border-radius: 2px;
+  padding: 15px;
+  border-style: solid;
+  border: none;
+}
+
+#botaoVoltar:hover {
+  background-color: rgb(170, 127, 9);
+  cursor: pointer;
+}
+
+#alinharBotao {
+  text-align: center;
+}
